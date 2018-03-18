@@ -1,0 +1,19 @@
+<li><a href="/song?id=16593585">Dark Paradise</a></li>
+<li><a href="/song?id=26243686">Young And Beautiful</a></li>
+<li><a href="/song?id=34690881">Salvatore</a></li>
+<li><a href="/song?id=16593593">Lucky Ones</a></li>
+<li><a href="/song?id=421160291">TV In Black And White (Version 2)</a></li>
+<li><a href="/song?id=33791260">High by the Beach</a></li>
+<li><a href="/song?id=501491063">Lust For Life (The Avener Rework)</a></li>
+<li><a data-res-action="bilog" data-log-action="downloadapp" data-log-json='{"type":"iPhone","source":"detail"}' href="https://itunes.apple.com/app/id590338362" class="ios" hidefocus="true" target="_blank">iPhone</a></li>
+<li><a data-res-action="bilog" data-log-action="downloadapp" data-log-json='{"type":"pc","source":"detail"}' href="http://music.163.com/api/pc/download/latest" class="pc" hidefocus="true" target="_blank">PC</a></li>
+<li><a data-res-action="bilog" data-log-action="downloadapp" data-log-json='{"type":"android","source":"detail"}' href="http://music.163.com/api/android/download/latest2" class="aos" hidefocus="true" target="_blank">Android</a></li>
+<li><a href="#"><em>分享给大家</em></a></li>
+<li><a href="#"><em>私信分享</em></a></li>
+<li><a class="u-slg u-slg-sn j-t" data-action="sns" data-type="2" hidefocus="true" href="//music.163.com/api/sns/authorize?snsType=2&clientType=web2&callbackType=Binding&forcelogin=true" title="新浪微博"></a></li>
+<li><a class="u-slg u-slg-db j-t" data-action="sns" data-type="3" hidefocus="true" href="//music.163.com/api/sns/authorize?snsType=3&clientType=web2&callbackType=Binding&forcelogin=true" title="豆瓣网"></a></li>
+<li><a class="s-fc0 f-thide xtag" href="/song?id=${song.id}">${song.name|mark}-${listArtists(song.artists)}</a></li>
+<li><a class="s-fc0 f-thide xtag" href="/artist?id=${artist.id}">${artist.name|mark}</a></li>
+<li><a class="s-fc0 f-thide xtag" href="/album?id=${album.id}">${album.name|mark}{if album.artist}-${album.artist.name|mark}{/if}</a></li>
+<li><a class="s-fc0 f-thide xtag" href="/playlist?id=${playlist.id}">${playlist.name|mark}</a></li>
+<li><a class="s-fc0 f-thide xtag" href="/mv?id=${mv.id}">MV:${mv.name|mark}{if mv.artistName}-${mv.artistName|mark}{/if}</a></li>
